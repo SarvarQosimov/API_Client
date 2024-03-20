@@ -7,15 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C8460B342AA4B3FF0E10AD93 /* Pods_TestProject_Olcha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5806397EC19190B23E87BA /* Pods_TestProject_Olcha.framework */; };
+		EC48B4E3F223EE75AFB6796B /* Pods_TestProject_Olcha_TestProject_OlchaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43603F209152039B3CD4A2AF /* Pods_TestProject_Olcha_TestProject_OlchaUITests.framework */; };
+		FF1D9BA92B935D1100B01280 /* SavedPostsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1D9BA82B935D1100B01280 /* SavedPostsController.swift */; };
+		FF1D9BAC2B935F6B00B01280 /* SavedPostsController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1D9BAB2B935F6B00B01280 /* SavedPostsController+TableView.swift */; };
+		FF1D9BAE2B93603A00B01280 /* SavedPostsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1D9BAD2B93603A00B01280 /* SavedPostsViewModel.swift */; };
+		FF1D9BB22B9397D300B01280 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1D9BB12B9397D200B01280 /* Keys.swift */; };
+		FF2D9FD0B36D7046CBADAFC6 /* Pods_TestProject_OlchaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C8A3A312A870DBC5350985D /* Pods_TestProject_OlchaTests.framework */; };
 		FF718DE82B91EEE900C389A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF718DE72B91EEE900C389A1 /* AppDelegate.swift */; };
-		FF718DEA2B91EEE900C389A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF718DE92B91EEE900C389A1 /* SceneDelegate.swift */; };
-		FF718DEC2B91EEE900C389A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF718DEB2B91EEE900C389A1 /* ViewController.swift */; };
-		FF718DEF2B91EEE900C389A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF718DED2B91EEE900C389A1 /* Main.storyboard */; };
 		FF718DF12B91EEEC00C389A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF718DF02B91EEEC00C389A1 /* Assets.xcassets */; };
 		FF718DF42B91EEEC00C389A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF718DF22B91EEEC00C389A1 /* LaunchScreen.storyboard */; };
 		FF718DFF2B91EEEC00C389A1 /* TestProject_OlchaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF718DFE2B91EEEC00C389A1 /* TestProject_OlchaTests.swift */; };
 		FF718E092B91EEEC00C389A1 /* TestProject_OlchaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF718E082B91EEEC00C389A1 /* TestProject_OlchaUITests.swift */; };
 		FF718E0B2B91EEEC00C389A1 /* TestProject_OlchaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF718E0A2B91EEEC00C389A1 /* TestProject_OlchaUITestsLaunchTests.swift */; };
+		FF718E182B91EF8600C389A1 /* Tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF718E172B91EF8600C389A1 /* Tabbar.swift */; };
+		FF718E1B2B91F0B300C389A1 /* PostsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF718E1A2B91F0B300C389A1 /* PostsController.swift */; };
+		FF718E1D2B91F14200C389A1 /* PostsController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF718E1C2B91F14200C389A1 /* PostsController+TableView.swift */; };
+		FF718E212B91F4D600C389A1 /* ApiRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF718E1E2B91F4D500C389A1 /* ApiRouter.swift */; };
+		FF718E222B91F4D600C389A1 /* URLS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF718E1F2B91F4D600C389A1 /* URLS.swift */; };
+		FF718E232B91F4D600C389A1 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF718E202B91F4D600C389A1 /* ApiClient.swift */; };
+		FF718E272B91F61800C389A1 /* PostModelList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF718E262B91F61800C389A1 /* PostModelList.swift */; };
+		FF718E2A2B91FAA400C389A1 /* PostsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF718E292B91FAA400C389A1 /* PostsViewModel.swift */; };
+		FF718E2C2B92026700C389A1 /* Posts+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF718E2B2B92026700C389A1 /* Posts+Utils.swift */; };
+		FF718E2E2B9207DF00C389A1 /* PostTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF718E2D2B9207DF00C389A1 /* PostTVC.swift */; };
+		FF718E312B920E4600C389A1 /* PostDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF718E302B920E4600C389A1 /* PostDetailController.swift */; };
+		FF718E332B9248A200C389A1 /* UserModelList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF718E322B9248A200C389A1 /* UserModelList.swift */; };
+		FF718E352B930DFF00C389A1 /* DataBaseMananger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF718E342B930DFF00C389A1 /* DataBaseMananger.swift */; };
+		FF718E382B930F3E00C389A1 /* PostDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF718E362B930F3E00C389A1 /* PostDB.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +54,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C8A3A312A870DBC5350985D /* Pods_TestProject_OlchaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestProject_OlchaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		179410261E6EF16D61A19E8C /* Pods-TestProject_Olcha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestProject_Olcha.release.xcconfig"; path = "Target Support Files/Pods-TestProject_Olcha/Pods-TestProject_Olcha.release.xcconfig"; sourceTree = "<group>"; };
+		22BFDBE5EAF99FDACE7148DF /* Pods-TestProject_OlchaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestProject_OlchaTests.debug.xcconfig"; path = "Target Support Files/Pods-TestProject_OlchaTests/Pods-TestProject_OlchaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		43603F209152039B3CD4A2AF /* Pods_TestProject_Olcha_TestProject_OlchaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestProject_Olcha_TestProject_OlchaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45887B3AF78F54391EBCB43C /* Pods-TestProject_Olcha-TestProject_OlchaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestProject_Olcha-TestProject_OlchaUITests.debug.xcconfig"; path = "Target Support Files/Pods-TestProject_Olcha-TestProject_OlchaUITests/Pods-TestProject_Olcha-TestProject_OlchaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6C85B0AC613287368343C243 /* Pods-TestProject_OlchaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestProject_OlchaTests.release.xcconfig"; path = "Target Support Files/Pods-TestProject_OlchaTests/Pods-TestProject_OlchaTests.release.xcconfig"; sourceTree = "<group>"; };
+		99D349DA61FAB6E87E704CE7 /* Pods-TestProject_Olcha-TestProject_OlchaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestProject_Olcha-TestProject_OlchaUITests.release.xcconfig"; path = "Target Support Files/Pods-TestProject_Olcha-TestProject_OlchaUITests/Pods-TestProject_Olcha-TestProject_OlchaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BD5806397EC19190B23E87BA /* Pods_TestProject_Olcha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestProject_Olcha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2A3BFDD89D7D129C5004C45 /* Pods-TestProject_Olcha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestProject_Olcha.debug.xcconfig"; path = "Target Support Files/Pods-TestProject_Olcha/Pods-TestProject_Olcha.debug.xcconfig"; sourceTree = "<group>"; };
+		FF1D9BA82B935D1100B01280 /* SavedPostsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedPostsController.swift; sourceTree = "<group>"; };
+		FF1D9BAB2B935F6B00B01280 /* SavedPostsController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SavedPostsController+TableView.swift"; sourceTree = "<group>"; };
+		FF1D9BAD2B93603A00B01280 /* SavedPostsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedPostsViewModel.swift; sourceTree = "<group>"; };
+		FF1D9BB12B9397D200B01280 /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
 		FF718DE42B91EEE900C389A1 /* TestProject_Olcha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProject_Olcha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF718DE72B91EEE900C389A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FF718DE92B91EEE900C389A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FF718DEB2B91EEE900C389A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FF718DEE2B91EEE900C389A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF718DF02B91EEEC00C389A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF718DF32B91EEEC00C389A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF718DF52B91EEEC00C389A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +77,20 @@
 		FF718E042B91EEEC00C389A1 /* TestProject_OlchaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestProject_OlchaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF718E082B91EEEC00C389A1 /* TestProject_OlchaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProject_OlchaUITests.swift; sourceTree = "<group>"; };
 		FF718E0A2B91EEEC00C389A1 /* TestProject_OlchaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProject_OlchaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FF718E172B91EF8600C389A1 /* Tabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabbar.swift; sourceTree = "<group>"; };
+		FF718E1A2B91F0B300C389A1 /* PostsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsController.swift; sourceTree = "<group>"; };
+		FF718E1C2B91F14200C389A1 /* PostsController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PostsController+TableView.swift"; sourceTree = "<group>"; };
+		FF718E1E2B91F4D500C389A1 /* ApiRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRouter.swift; sourceTree = "<group>"; };
+		FF718E1F2B91F4D600C389A1 /* URLS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLS.swift; sourceTree = "<group>"; };
+		FF718E202B91F4D600C389A1 /* ApiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		FF718E262B91F61800C389A1 /* PostModelList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModelList.swift; sourceTree = "<group>"; };
+		FF718E292B91FAA400C389A1 /* PostsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewModel.swift; sourceTree = "<group>"; };
+		FF718E2B2B92026700C389A1 /* Posts+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Posts+Utils.swift"; sourceTree = "<group>"; };
+		FF718E2D2B9207DF00C389A1 /* PostTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTVC.swift; sourceTree = "<group>"; };
+		FF718E302B920E4600C389A1 /* PostDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailController.swift; sourceTree = "<group>"; };
+		FF718E322B9248A200C389A1 /* UserModelList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModelList.swift; sourceTree = "<group>"; };
+		FF718E342B930DFF00C389A1 /* DataBaseMananger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseMananger.swift; sourceTree = "<group>"; };
+		FF718E372B930F3E00C389A1 /* PostModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PostModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8460B342AA4B3FF0E10AD93 /* Pods_TestProject_Olcha.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF2D9FD0B36D7046CBADAFC6 /* Pods_TestProject_OlchaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +114,63 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC48B4E3F223EE75AFB6796B /* Pods_TestProject_Olcha_TestProject_OlchaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50E6CA11457BFE33AF279459 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD5806397EC19190B23E87BA /* Pods_TestProject_Olcha.framework */,
+				43603F209152039B3CD4A2AF /* Pods_TestProject_Olcha_TestProject_OlchaUITests.framework */,
+				0C8A3A312A870DBC5350985D /* Pods_TestProject_OlchaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D26D82BFCE5389223E78761D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2A3BFDD89D7D129C5004C45 /* Pods-TestProject_Olcha.debug.xcconfig */,
+				179410261E6EF16D61A19E8C /* Pods-TestProject_Olcha.release.xcconfig */,
+				45887B3AF78F54391EBCB43C /* Pods-TestProject_Olcha-TestProject_OlchaUITests.debug.xcconfig */,
+				99D349DA61FAB6E87E704CE7 /* Pods-TestProject_Olcha-TestProject_OlchaUITests.release.xcconfig */,
+				22BFDBE5EAF99FDACE7148DF /* Pods-TestProject_OlchaTests.debug.xcconfig */,
+				6C85B0AC613287368343C243 /* Pods-TestProject_OlchaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FF1D9BAA2B935F4200B01280 /* SavedPostsController */ = {
+			isa = PBXGroup;
+			children = (
+				FF1D9BA82B935D1100B01280 /* SavedPostsController.swift */,
+				FF1D9BAB2B935F6B00B01280 /* SavedPostsController+TableView.swift */,
+			);
+			path = SavedPostsController;
+			sourceTree = "<group>";
+		};
+		FF1D9BAF2B9395B800B01280 /* Manangers */ = {
+			isa = PBXGroup;
+			children = (
+				FF718E342B930DFF00C389A1 /* DataBaseMananger.swift */,
+			);
+			path = Manangers;
+			sourceTree = "<group>";
+		};
+		FF1D9BB02B9395D200B01280 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FF718E2B2B92026700C389A1 /* Posts+Utils.swift */,
+				FF1D9BB12B9397D200B01280 /* Keys.swift */,
+				FF718E362B930F3E00C389A1 /* PostDB.xcdatamodeld */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		FF718DDB2B91EEE900C389A1 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +178,8 @@
 				FF718DFD2B91EEEC00C389A1 /* TestProject_OlchaTests */,
 				FF718E072B91EEEC00C389A1 /* TestProject_OlchaUITests */,
 				FF718DE52B91EEE900C389A1 /* Products */,
+				D26D82BFCE5389223E78761D /* Pods */,
+				50E6CA11457BFE33AF279459 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +196,13 @@
 		FF718DE62B91EEE900C389A1 /* TestProject_Olcha */ = {
 			isa = PBXGroup;
 			children = (
+				FF718E252B91F5FE00C389A1 /* Models */,
+				FF718E192B91EF9C00C389A1 /* Controllers */,
+				FF718E282B91FA8B00C389A1 /* ViewModels */,
+				FF718E242B91F4E100C389A1 /* API */,
+				FF1D9BAF2B9395B800B01280 /* Manangers */,
+				FF1D9BB02B9395D200B01280 /* Helper */,
 				FF718DE72B91EEE900C389A1 /* AppDelegate.swift */,
-				FF718DE92B91EEE900C389A1 /* SceneDelegate.swift */,
-				FF718DEB2B91EEE900C389A1 /* ViewController.swift */,
-				FF718DED2B91EEE900C389A1 /* Main.storyboard */,
 				FF718DF02B91EEEC00C389A1 /* Assets.xcassets */,
 				FF718DF22B91EEEC00C389A1 /* LaunchScreen.storyboard */,
 				FF718DF52B91EEEC00C389A1 /* Info.plist */,
@@ -127,6 +227,55 @@
 			path = TestProject_OlchaUITests;
 			sourceTree = "<group>";
 		};
+		FF718E192B91EF9C00C389A1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FF718E172B91EF8600C389A1 /* Tabbar.swift */,
+				FF718E2F2B920DCD00C389A1 /* PostController */,
+				FF718E302B920E4600C389A1 /* PostDetailController.swift */,
+				FF1D9BAA2B935F4200B01280 /* SavedPostsController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FF718E242B91F4E100C389A1 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				FF718E202B91F4D600C389A1 /* ApiClient.swift */,
+				FF718E1E2B91F4D500C389A1 /* ApiRouter.swift */,
+				FF718E1F2B91F4D600C389A1 /* URLS.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		FF718E252B91F5FE00C389A1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FF718E262B91F61800C389A1 /* PostModelList.swift */,
+				FF718E322B9248A200C389A1 /* UserModelList.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FF718E282B91FA8B00C389A1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FF718E292B91FAA400C389A1 /* PostsViewModel.swift */,
+				FF1D9BAD2B93603A00B01280 /* SavedPostsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FF718E2F2B920DCD00C389A1 /* PostController */ = {
+			isa = PBXGroup;
+			children = (
+				FF718E1A2B91F0B300C389A1 /* PostsController.swift */,
+				FF718E1C2B91F14200C389A1 /* PostsController+TableView.swift */,
+				FF718E2D2B9207DF00C389A1 /* PostTVC.swift */,
+			);
+			path = PostController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +283,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF718E0E2B91EEEC00C389A1 /* Build configuration list for PBXNativeTarget "TestProject_Olcha" */;
 			buildPhases = (
+				F18649A67D0DCD69D97F182F /* [CP] Check Pods Manifest.lock */,
 				FF718DE02B91EEE900C389A1 /* Sources */,
 				FF718DE12B91EEE900C389A1 /* Frameworks */,
 				FF718DE22B91EEE900C389A1 /* Resources */,
+				FA9E43BA0A7628B45495673F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +302,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF718E112B91EEEC00C389A1 /* Build configuration list for PBXNativeTarget "TestProject_OlchaTests" */;
 			buildPhases = (
+				A58EEF7276573A3328CD9A8B /* [CP] Check Pods Manifest.lock */,
 				FF718DF62B91EEEC00C389A1 /* Sources */,
 				FF718DF72B91EEEC00C389A1 /* Frameworks */,
 				FF718DF82B91EEEC00C389A1 /* Resources */,
@@ -169,9 +321,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF718E142B91EEEC00C389A1 /* Build configuration list for PBXNativeTarget "TestProject_OlchaUITests" */;
 			buildPhases = (
+				E08EFD415B48961737D7577F /* [CP] Check Pods Manifest.lock */,
 				FF718E002B91EEEC00C389A1 /* Sources */,
 				FF718E012B91EEEC00C389A1 /* Frameworks */,
 				FF718E022B91EEEC00C389A1 /* Resources */,
+				A5E0A91C343995747A7069C7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,7 +387,6 @@
 			files = (
 				FF718DF42B91EEEC00C389A1 /* LaunchScreen.storyboard in Resources */,
 				FF718DF12B91EEEC00C389A1 /* Assets.xcassets in Resources */,
-				FF718DEF2B91EEE900C389A1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +406,133 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A58EEF7276573A3328CD9A8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestProject_OlchaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5E0A91C343995747A7069C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestProject_Olcha-TestProject_OlchaUITests/Pods-TestProject_Olcha-TestProject_OlchaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestProject_Olcha-TestProject_OlchaUITests/Pods-TestProject_Olcha-TestProject_OlchaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestProject_Olcha-TestProject_OlchaUITests/Pods-TestProject_Olcha-TestProject_OlchaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E08EFD415B48961737D7577F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestProject_Olcha-TestProject_OlchaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F18649A67D0DCD69D97F182F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestProject_Olcha-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA9E43BA0A7628B45495673F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestProject_Olcha/Pods-TestProject_Olcha-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestProject_Olcha/Pods-TestProject_Olcha-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestProject_Olcha/Pods-TestProject_Olcha-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FF718DE02B91EEE900C389A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF718DEC2B91EEE900C389A1 /* ViewController.swift in Sources */,
+				FF718E232B91F4D600C389A1 /* ApiClient.swift in Sources */,
+				FF718E272B91F61800C389A1 /* PostModelList.swift in Sources */,
+				FF718E312B920E4600C389A1 /* PostDetailController.swift in Sources */,
 				FF718DE82B91EEE900C389A1 /* AppDelegate.swift in Sources */,
-				FF718DEA2B91EEE900C389A1 /* SceneDelegate.swift in Sources */,
+				FF1D9BAE2B93603A00B01280 /* SavedPostsViewModel.swift in Sources */,
+				FF718E382B930F3E00C389A1 /* PostDB.xcdatamodeld in Sources */,
+				FF1D9BB22B9397D300B01280 /* Keys.swift in Sources */,
+				FF1D9BA92B935D1100B01280 /* SavedPostsController.swift in Sources */,
+				FF718E2E2B9207DF00C389A1 /* PostTVC.swift in Sources */,
+				FF718E332B9248A200C389A1 /* UserModelList.swift in Sources */,
+				FF1D9BAC2B935F6B00B01280 /* SavedPostsController+TableView.swift in Sources */,
+				FF718E222B91F4D600C389A1 /* URLS.swift in Sources */,
+				FF718E1D2B91F14200C389A1 /* PostsController+TableView.swift in Sources */,
+				FF718E2A2B91FAA400C389A1 /* PostsViewModel.swift in Sources */,
+				FF718E212B91F4D600C389A1 /* ApiRouter.swift in Sources */,
+				FF718E1B2B91F0B300C389A1 /* PostsController.swift in Sources */,
+				FF718E352B930DFF00C389A1 /* DataBaseMananger.swift in Sources */,
+				FF718E182B91EF8600C389A1 /* Tabbar.swift in Sources */,
+				FF718E2C2B92026700C389A1 /* Posts+Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +569,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FF718DED2B91EEE900C389A1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FF718DEE2B91EEE900C389A1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FF718DF22B91EEEC00C389A1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -353,7 +617,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -416,7 +680,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -437,6 +701,7 @@
 		};
 		FF718E0F2B91EEEC00C389A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2A3BFDD89D7D129C5004C45 /* Pods-TestProject_Olcha.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -447,7 +712,7 @@
 				INFOPLIST_FILE = TestProject_Olcha/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -465,6 +730,7 @@
 		};
 		FF718E102B91EEEC00C389A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 179410261E6EF16D61A19E8C /* Pods-TestProject_Olcha.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,7 +741,7 @@
 				INFOPLIST_FILE = TestProject_Olcha/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -493,6 +759,7 @@
 		};
 		FF718E122B91EEEC00C389A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22BFDBE5EAF99FDACE7148DF /* Pods-TestProject_OlchaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,6 +780,7 @@
 		};
 		FF718E132B91EEEC00C389A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C85B0AC613287368343C243 /* Pods-TestProject_OlchaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -533,6 +801,7 @@
 		};
 		FF718E152B91EEEC00C389A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45887B3AF78F54391EBCB43C /* Pods-TestProject_Olcha-TestProject_OlchaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -551,6 +820,7 @@
 		};
 		FF718E162B91EEEC00C389A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99D349DA61FAB6E87E704CE7 /* Pods-TestProject_Olcha-TestProject_OlchaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -607,6 +877,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FF718E362B930F3E00C389A1 /* PostDB.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FF718E372B930F3E00C389A1 /* PostModel.xcdatamodel */,
+			);
+			currentVersion = FF718E372B930F3E00C389A1 /* PostModel.xcdatamodel */;
+			path = PostDB.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FF718DDC2B91EEE900C389A1 /* Project object */;
 }

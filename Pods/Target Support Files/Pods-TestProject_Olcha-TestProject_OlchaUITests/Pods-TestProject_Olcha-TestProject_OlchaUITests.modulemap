@@ -1,0 +1,6 @@
+framework module Pods_TestProject_Olcha_TestProject_OlchaUITests {
+  umbrella header "Pods-TestProject_Olcha-TestProject_OlchaUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
